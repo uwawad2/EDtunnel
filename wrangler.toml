@@ -1,7 +1,7 @@
 name = "cf-lumine"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
-# node_compat = true
+node_compat = true
 workers_dev = true
 routes = [
   { pattern = "akun.luminecf.my.id", custom_domain = true },
@@ -17,7 +17,7 @@ routes = [
 
 
 [vars]
-PROXYIP = "103.168.146.169:20132"
+PROXYIP = "103.133.223.51:2096,103.149.165.47:443,103.6.207.108:8080,206.189.129.187:443,143.244.130.180:443,172.232.239.151:587,3.109.185.221:443,103.168.146.169:20132,165.232.182.81:443,43.204.80.35:443,147.139.245.56:443,103.97.88.133:443,35.200.202.118:443,146.190.111.165:443"
 UUID = "1b6c1745-992e-4aac-8685-266c090e50ea"
-# SOCKS5 = "127.0.0.1:1080"
-# SOCKS5_RELAY = "true"
+SOCKS5 = "127.0.0.1:1080"
+SOCKS5_RELAY = "true"
